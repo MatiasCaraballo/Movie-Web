@@ -1,0 +1,35 @@
+html{font-size: 10px;}
+
+* {background-color: black;
+color:white;
+font-family: 'Open Sans', sans-serif;
+font-size:2rem;
+
+
+}
+.principalTitle{ color:red}
+.posterOverview,.myList{
+  display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
+
+.myList img,.randomMovies img {
+  width :15rem;
+  height:22.5rem;
+}
+img:hover {
+  transform: scale(1.1);}
+h1{font-size:5rem;}
+h2,h3{text-transform: uppercase;
+font-size: 4rem;}
+h1,h2,p,img,form{
+  margin: 2rem;
+  padding:1rem
+}
+
+ul{
+  list-style: none;
+margin-top: 4rem;
+padding:2rem;
+}
